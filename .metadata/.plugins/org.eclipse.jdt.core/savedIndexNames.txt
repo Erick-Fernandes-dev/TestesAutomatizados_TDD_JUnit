@@ -1,0 +1,23 @@
+INDEX VERSION 1.131+C:\MinhasFormacoes\CursoTDD_TestesAutomatizados\01_TDD_e_JavaTestesAutomatizadosComJUnit\.metadata\.plugins\org.eclipse.jdt.core
+2935662609.index
+287645824.index
+149989780.index
+2132770018.index
+2864508508.index
+3426229884.index
+2984648843.index
+624267905.index
+500541398.index
+1114313846.index
+223303054.index
+3696920771.index
+3529602119.index
+3096348829.index
+63865770.index
+1035614827.index
+2124555301.index
+2925366511.index
+3878927801.index
+231245590.index
+1349708315.index
+3884100467.index
