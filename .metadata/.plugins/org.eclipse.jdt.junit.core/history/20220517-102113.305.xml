@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BonusServiceTest" project="2108-java-testes-unitarios-tdd-projeto_inicial" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="br.com.alura.tdd.service.BonusServiceTest" time="0.001" displayname="BonusServiceTest" uniqueid="[engine:junit-jupiter]/[class:br.com.alura.tdd.service.BonusServiceTest]">
+    <testcase name="bonusDeveriaSer10PorCentoDoSalario" classname="br.com.alura.tdd.service.BonusServiceTest" time="0.0" displayname="bonusDeveriaSer10PorCentoDoSalario()" uniqueid="[engine:junit-jupiter]/[class:br.com.alura.tdd.service.BonusServiceTest]/[method:bonusDeveriaSer10PorCentoDoSalario()]"/>
+    <testcase name="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" classname="br.com.alura.tdd.service.BonusServiceTest" time="0.0" displayname="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto()" uniqueid="[engine:junit-jupiter]/[class:br.com.alura.tdd.service.BonusServiceTest]/[method:bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto()]"/>
+    <testcase name="bonusDeveriaSerDezPorCentoParaSalarioDeExatamente10000" classname="br.com.alura.tdd.service.BonusServiceTest" time="0.0" displayname="bonusDeveriaSerDezPorCentoParaSalarioDeExatamente10000()" uniqueid="[engine:junit-jupiter]/[class:br.com.alura.tdd.service.BonusServiceTest]/[method:bonusDeveriaSerDezPorCentoParaSalarioDeExatamente10000()]"/>
+  </testsuite>
+</testrun>

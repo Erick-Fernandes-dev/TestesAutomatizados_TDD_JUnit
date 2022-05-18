@@ -1,0 +1,63 @@
+EXISTEM 3 ABORDAGENS DE TESTES
+
+--> 1 <-----------------------------------------
+vamos chamar um método que devolve um 
+valor e testar se esse valor está correto. 
+Nessa categoria de teste, chamamos um
+método, passamos um parâmetro, obtemos
+um retorno e o validamos.
+
+--> 2 <-----------------------------------------
+envolve testar um objeto modificado pelo método.
+
+Um exemplo é a classe ReajusteService, na qual
+chamamos um método que não devolve nenhum valor
+(void), mas modifica um objeto. Nesse caso,
+fazemos o assert em cima do objeto que foi o
+nosso parâmetro para verificar se ele nos dá o
+valor esperado.
+
+--> 3 <-----------------------------------------
+
+lança uma exception e na qual simulamos se ela
+de fato acontece.
+
+-----------------------------------------------------------
+
+@BeforeEach - chamar um método específico antes
+dos métodos de teste.
+
+@AfterEach - serve para fazer alguma ação após
+cada método ser chamado.
+
+Caso você precise executar uma ação uma única vez
+antes e depois dos testes, existem duas anotações
+específicas para isso: @BeforeAll e @AfterAll.
+
+A primeira executa uma atividade uma única vez antes
+de qualquer teste e a segunda faz o mesmo depois que
+todos os testes foram finalizados. Diferente do
+@BeforeEache do @AfterEach, o @BeforeAll e o @AfterAll
+são métodos estáticos.
+
+-----------------------------------------------------------
+
+-> Por norma, os métodos privados não são testados
+ Por serem privados, eles são métodos utilitários da classe,
+ ou seja, usados internamente por ela.
+ 
+ Em resumo, se um método é privado, ele não precisa ser
+ testado porque já está sendo usado internamente na classe
+ por outros métodos. Nesse caso, ao testar estes últimos,
+ você acaba testando também o método privado por extensão.
+ Por isso, quando ver um método privado, não caia na tentação de
+ mudá-lo para público só para poder testá-lo.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -9,21 +9,18 @@ public enum Desempenho {
 	A_DESEJAR {
 		@Override
 		public BigDecimal percentualReajuste() {
-			// TODO Auto-generated method stub
 			return new BigDecimal("0.03");
 		}
 	}, 
 	BOM {
 		@Override
 		public BigDecimal percentualReajuste() {
-			// TODO Auto-generated method stub
 			return new BigDecimal("0.15");
 		}
 	}, 
 	OTIMO {
 		@Override
 		public BigDecimal percentualReajuste() {
-			// TODO Auto-generated method stub
 			return new BigDecimal("0.2");
 		}
 	};

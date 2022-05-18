@@ -1,0 +1,31 @@
+EXISTEM 3 ABORDAGENS DE TESTES
+
+--> 1 <-----------------------------------------
+vamos chamar um método que devolve um 
+valor e testar se esse valor está correto. 
+Nessa categoria de teste, chamamos um
+método, passamos um parâmetro, obtemos
+um retorno e o validamos.
+
+--> 2 <-----------------------------------------
+envolve testar um objeto modificado pelo método.
+
+Um exemplo é a classe ReajusteService, na qual
+chamamos um método que não devolve nenhum valor
+(void), mas modifica um objeto. Nesse caso,
+fazemos o assert em cima do objeto que foi o
+nosso parâmetro para verificar se ele nos dá o
+valor esperado.
+
+--> 3 <-----------------------------------------
+
+lança uma exception e na qual simulamos se ela
+de fato acontece.
+
+-------------------------------------------------
+
+@BeforeEach - chamar um método específico antes
+dos métodos de teste.
+
+@AfterEach - serve para fazer alguma ação após
+cada método ser chamado.
